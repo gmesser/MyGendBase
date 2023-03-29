@@ -1,2 +1,2 @@
 # MyGendBase
-My generated baase program
+My generated base program
