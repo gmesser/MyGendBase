@@ -39,5 +39,5 @@ jobs:
 #        pytest
     - name: Run the program
       run: |
-        python MyGendBase.py
+        python GendBase.py
         
