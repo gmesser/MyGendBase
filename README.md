@@ -224,9 +224,9 @@ How do I make a Python module that contains the parse_bases and print_bases func
 
 To create a Python module that contains the parse_bases and print_bases functions, you can follow these steps:
 
-    Create a new file in your preferred text editor or IDE, and save it with a name that ends with .py. For example, you could name it my_module.py.
+Create a new file in your preferred text editor or IDE, and save it with a name that ends with .py. For example, you could name it my_module.py.
 
-    Write the code for the parse_bases and print_bases functions in the file, like this:
+Write the code for the parse_bases and print_bases functions in the file, like this:
 
 ```
 def parse_bases(string, base):
@@ -236,9 +236,9 @@ def print_bases(num):
     print(f"{num} (0b{bin(num)[2:]}, 0x{hex(num)[2:].upper()})")
 ```
 
-    Save the file.
+Save the file.
 
-    Now that you have created a Python module, you can import the functions from this module in other Python scripts by using the import statement followed by the name of your module, like this:
+Now that you have created a Python module, you can import the functions from this module in other Python scripts by using the import statement followed by the name of your module, like this:
 
 ```
 import my_module
